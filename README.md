@@ -126,8 +126,8 @@ GENERATION_CONFIG = {
 
 ### Translation Service Enhancement
 
-**Enterprise Translation Solutions**
-- **Google Cloud Translation API**: Supports many languages, custom models, batch processing
+**Some enterprises solutions**
+- **Google Cloud Translation**: Supports many languages, custom models, batch processing
   - Features: custom models, glossaries, document translation
 
 - **Azure Translator**
@@ -169,7 +169,7 @@ GENERATION_CONFIG = {
 - Dead letter queues for failed request handling and retry mechanisms
 - Priority queues for different service tiers (free vs plus vs premium)(3 tiers because why not)
 
-### Security and Reliability Framework
+### Security
 
 **Authentication and authorization**
 - JWT tokens with refresh token rotation for secure user sessions
@@ -180,12 +180,12 @@ GENERATION_CONFIG = {
 **Input validation and security**
 - Comprehensive image validation: file type, size limits (max 10MB), malware scanning
 - Avoid injection attacks,..
-- Rate limiting per user/IP: 100 requests per hour for free tier, 1000 for premium
+- Rate limiting per user/IP: certain requests per hour for free tier, higher for plus/premium
 
 **Data protection**
 - End-to-end encryption for image uploads and processing
 - Ensure user data deletion
-- Regular security audits and penetration testing
+- Regular security audits
 
 **Error handling**
 - Structured logging with IDs for request tracing
