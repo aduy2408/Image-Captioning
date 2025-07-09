@@ -43,6 +43,48 @@ Image-Captioning/
 
 ### 4. **ViT-GPT2** (nlpconnect/vit-gpt2-image-captioning)
 
+## Model Selection(If had to choose)
+
+While this pipeline incorporates four different models (BLIP-2, BLIP, GIT, and ViT-GPT2) to provide comprehensive captioning options, if we had to choose a single model for production deployment, **GIT** would be the preferred choice, with **ViT-GPT2** as a strong alternative.(Still, i think we should utilize a waterfall approach to utilize all the models)
+
+### Why GIT is the primary choice
+
+**Performance Balance**
+- GIT demonstrates the best balance between caption quality and computational efficiency
+- Achieves the best BLEU and CIDEr scores while maintaining reasonable inference times and resource requirements
+
+**Architecture advantages**
+- Utilizes a unified transformer architecture that efficiently processes both visual and textual information
+- Employs a more streamlined approach compared to BLIP models' complex multi-stage processing
+- Better handling of fine-grained visual details through its attention mechanisms
+
+**Resource Efficiency**
+- Lower resources required compared to BLIP-2's large language model components
+- Faster inference times while maintaining high-quality outputs
+- More suitable for production environments with good results + scalability
+
+### Why GIT/ViT-GPT2 Over BLIP Models
+
+**BLIP-2 limitations**
+- Significantly higher computational requirements due to its large language model backbone (2.7B parameters)
+- Slower inference times that may impact user experience in real-time applications
+- Higher memory consumption making it less suitable for resource-constrained environments
+- The results not being good enough since its captions were either too simple or too short, which could not capture all the aspects of the image
+
+**BLIP Limitations**
+- While faster than BLIP-2, it shows inconsistent performance across different image types
+- Less robust handling of complex scenes compared to GIT's unified architecture
+- Tends to generate generic captions lacking specific  details(same case with blip-2, and is a really big weakness)
+- Suprisingly, it works better than BLIP-2
+
+**ViT-GPT2 as Alternative**
+- Good performance-to-resource, is ideal for lightweight deployments
+- Good caption quality with natural language generation capabilities, has more semantic meaning compared to the other models
+- Lower memory requirements compared to both BLIP variants
+- But can generate captions that are not relevant to the image, requires carefull parameter choices
+
+**I actually did try to to use InstructBLIP as well but the resources available were not enough(Kaggle) so that makes the biggest weakness of InstructBLIP being heavy resources requirements**
+
 ## Core Components
 
 ### Model Engine (`model/image_captioning_models.py`)
