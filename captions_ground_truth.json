@@ -1,0 +1,126 @@
+{
+  "created": "2025-07-09T06:08:59.243117",
+  "num_images": 10,
+  "images": {
+    "397133": {
+      "local_path": "test_images/images/000000397133.jpg",
+      "original_url": "http://images.cocodataset.org/val2017/000000397133.jpg",
+      "filename": "000000397133.jpg",
+      "captions": [
+        "A man is in a kitchen making pizzas.",
+        "Man in apron standing on front of oven with pans and bakeware",
+        "A baker is working in the kitchen rolling dough.",
+        "A person standing by a stove in a kitchen.",
+        "A table with pies being made and a person standing near a wall with pots and pans hanging on the wall."
+      ]
+    },
+    "37777": {
+      "local_path": "test_images/images/000000037777.jpg",
+      "original_url": "http://images.cocodataset.org/val2017/000000037777.jpg",
+      "filename": "000000037777.jpg",
+      "captions": [
+        "The dining table near the kitchen has a bowl of fruit on it.",
+        "A small kitchen has various appliances and a table.",
+        "The kitchen is clean and ready for us to see.",
+        "A kitchen and dining area decorated in white.",
+        "A kitchen that has a bowl of fruit on the table."
+      ]
+    },
+    "252219": {
+      "local_path": "test_images/images/000000252219.jpg",
+      "original_url": "http://images.cocodataset.org/val2017/000000252219.jpg",
+      "filename": "000000252219.jpg",
+      "captions": [
+        "a person with a shopping cart on a city street",
+        "City dwellers walk by as a homeless man begs for cash.",
+        "People walking past a homeless man begging on a city street",
+        "a homeless man holding a cup and standing next to a shopping cart on a street",
+        "People are walking on the street by a homeless person."
+      ]
+    },
+    "87038": {
+      "local_path": "test_images/images/000000087038.jpg",
+      "original_url": "http://images.cocodataset.org/val2017/000000087038.jpg",
+      "filename": "000000087038.jpg",
+      "captions": [
+        "A person on a skateboard and bike at a skate park.",
+        "A man on a skateboard performs a trick at the skate park",
+        "A skateboarder jumps into the air as he performs a skateboard trick.",
+        "Athletes performing tricks on a BMX bicycle and a skateboard.",
+        "a man falls off his skateboard in a skate park."
+      ]
+    },
+    "174482": {
+      "local_path": "test_images/images/000000174482.jpg",
+      "original_url": "http://images.cocodataset.org/val2017/000000174482.jpg",
+      "filename": "000000174482.jpg",
+      "captions": [
+        "a blue bike parked on a side walk",
+        "A bicycle is chained to a fixture on a city street",
+        "A blue bicycle sits on a sidewalk near a street.",
+        "A bicycle is locked up to a post",
+        "a bike sits parked next to a street"
+      ]
+    },
+    "403385": {
+      "local_path": "test_images/images/000000403385.jpg",
+      "original_url": "http://images.cocodataset.org/val2017/000000403385.jpg",
+      "filename": "000000403385.jpg",
+      "captions": [
+        "A bathroom that has a broken wall in the shower.",
+        "A bathroom looks clean but is missing tile at the shower stall.",
+        "A view of a bathroom that needs to be fixed up.",
+        "a shower toilet and sink in a basement bathroom",
+        "A very big whit rest room with a shabby looking shower."
+      ]
+    },
+    "6818": {
+      "local_path": "test_images/images/000000006818.jpg",
+      "original_url": "http://images.cocodataset.org/val2017/000000006818.jpg",
+      "filename": "000000006818.jpg",
+      "captions": [
+        "a couple of buckets in a white room",
+        "A bathroom with no toilets and a red and green bucket.",
+        "a shower room with two buckets, tolet paper holder and soap.",
+        "A standing toilet in a bathroom next to a window.",
+        "This picture looks like a janitors closet with buckets on the floor."
+      ]
+    },
+    "480985": {
+      "local_path": "test_images/images/000000480985.jpg",
+      "original_url": "http://images.cocodataset.org/val2017/000000480985.jpg",
+      "filename": "000000480985.jpg",
+      "captions": [
+        "The shiny motorcycle has been put on display.",
+        "The new motorcycle on display is very shiny.",
+        "A motorcycle is parked inside of a building.",
+        "A brand new motorcycle on display at a show.",
+        "The front end of a red motorcycle that is on display."
+      ]
+    },
+    "458054": {
+      "local_path": "test_images/images/000000458054.jpg",
+      "original_url": "http://images.cocodataset.org/val2017/000000458054.jpg",
+      "filename": "000000458054.jpg",
+      "captions": [
+        "A row of white toilets sitting on top of a dirt ground.",
+        "A bunch of dirty looking white toilets in a row outside.",
+        "There is a row of used and broken toilets in a field.",
+        "A row of toilets with broken seat tops on the ground.",
+        "LOTS OF BROKEN TOILETS SITTING OUT ON A LAWN"
+      ]
+    },
+    "331352": {
+      "local_path": "test_images/images/000000331352.jpg",
+      "original_url": "http://images.cocodataset.org/val2017/000000331352.jpg",
+      "filename": "000000331352.jpg",
+      "captions": [
+        "A small closed toilet in a cramped space.",
+        "A tan toilet and sink combination in a small room.",
+        "This is an advanced toilet with a sink and control panel.",
+        "A close-up picture of a toilet with a fountain.",
+        "Off white toilet with a faucet and controls."
+      ]
+    }
+  }
+}

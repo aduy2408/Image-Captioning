@@ -1,0 +1,182 @@
+{
+  "image_1": {
+    "image_path": "coco_sample/images/000000397133.jpg",
+    "image_name": "000000397133.jpg",
+    "models_tested": [
+      "vit_gpt2"
+    ],
+    "ground_truth": [
+      "A man is in a kitchen making pizzas.",
+      "Man in apron standing on front of oven with pans and bakeware",
+      "A baker is working in the kitchen rolling dough.",
+      "A person standing by a stove in a kitchen.",
+      "A table with pies being made and a person standing near a wall with pots and pans hanging on the wall."
+    ],
+    "model_results": {
+      "Vit_GPT2": "a woman is carrying a tray of pans around kitchen and in her hands, there are many people behind the kitchen counter and it looks like she wants something different with those utensils all over the room besides the food dishes as wellas."
+    },
+    "num_ground_truth": 5
+  },
+  "image_2": {
+    "image_path": "coco_sample/images/000000037777.jpg",
+    "image_name": "000000037777.jpg",
+    "models_tested": [
+      "vit_gpt2"
+    ],
+    "ground_truth": [
+      "The dining table near the kitchen has a bowl of fruit on it.",
+      "A small kitchen has various appliances and a table.",
+      "The kitchen is clean and ready for us to see.",
+      "A kitchen and dining area decorated in white.",
+      "A kitchen that has a bowl of fruit on the table."
+    ],
+    "model_results": {
+      "Vit_GPT2": "a kitchen with oak cabinets and marble flooring iced coffee, fruit drinkers on the counter tops ices."
+    },
+    "num_ground_truth": 5
+  },
+  "image_3": {
+    "image_path": "coco_sample/images/000000252219.jpg",
+    "image_name": "000000252219.jpg",
+    "models_tested": [
+      "vit_gpt2"
+    ],
+    "ground_truth": [
+      "a person with a shopping cart on a city street",
+      "City dwellers walk by as a homeless man begs for cash.",
+      "People walking past a homeless man begging on a city street",
+      "a homeless man holding a cup and standing next to a shopping cart on a street",
+      "People are walking on the street by a homeless person."
+    ],
+    "model_results": {
+      "Vit_GPT2": "a man walking away from his cell phone near a construction site iannathan moyer in front of an american flag sign at street corner on the sidewalk beside shopping center lobby signs which reads \"unions for people to eat with no pay."
+    },
+    "num_ground_truth": 5
+  },
+  "image_4": {
+    "image_path": "coco_sample/images/000000087038.jpg",
+    "image_name": "000000087038.jpg",
+    "models_tested": [
+      "vit_gpt2"
+    ],
+    "ground_truth": [
+      "A person on a skateboard and bike at a skate park.",
+      "A man on a skateboard performs a trick at the skate park",
+      "A skateboarder jumps into the air as he performs a skateboard trick.",
+      "Athletes performing tricks on a BMX bicycle and a skateboard.",
+      "a man falls off his skateboard in a skate park."
+    ],
+    "model_results": {
+      "Vit_GPT2": "a skateboarder doing a trick in front of several people skateboarding on street at night as onlookers watch below while the camera zooms overhead by houses with no buildings nearby, graffiti everywhere and many cars are parked near or behind them."
+    },
+    "num_ground_truth": 5
+  },
+  "image_5": {
+    "image_path": "coco_sample/images/000000174482.jpg",
+    "image_name": "000000174482.jpg",
+    "models_tested": [
+      "vit_gpt2"
+    ],
+    "ground_truth": [
+      "a blue bike parked on a side walk",
+      "A bicycle is chained to a fixture on a city street",
+      "A blue bicycle sits on a sidewalk near a street.",
+      "A bicycle is locked up to a post",
+      "a bike sits parked next to a street"
+    ],
+    "model_results": {
+      "Vit_GPT2": "a bicycle is parked by a pole on the street bikes are near a parking spot as cars drive next to the curb.the bike is blue and white of course."
+    },
+    "num_ground_truth": 5
+  },
+  "image_6": {
+    "image_path": "coco_sample/images/000000403385.jpg",
+    "image_name": "000000403385.jpg",
+    "models_tested": [
+      "vit_gpt2"
+    ],
+    "ground_truth": [
+      "A bathroom that has a broken wall in the shower.",
+      "A bathroom looks clean but is missing tile at the shower stall.",
+      "A view of a bathroom that needs to be fixed up.",
+      "a shower toilet and sink in a basement bathroom",
+      "A very big whit rest room with a shabby looking shower."
+    ],
+    "model_results": {
+      "Vit_GPT2": "modern bathroom with toilet and bathtub, towel rack in each tub a restroom area."
+    },
+    "num_ground_truth": 5
+  },
+  "image_7": {
+    "image_path": "coco_sample/images/000000006818.jpg",
+    "image_name": "000000006818.jpg",
+    "models_tested": [
+      "vit_gpt2"
+    ],
+    "ground_truth": [
+      "a couple of buckets in a white room",
+      "A bathroom with no toilets and a red and green bucket.",
+      "a shower room with two buckets, tolet paper holder and soap.",
+      "A standing toilet in a bathroom next to a window.",
+      "This picture looks like a janitors closet with buckets on the floor."
+    ],
+    "model_results": {
+      "Vit_GPT2": "a toilet with a water hose built in to it small shower stall area, next door."
+    },
+    "num_ground_truth": 5
+  },
+  "image_8": {
+    "image_path": "coco_sample/images/000000480985.jpg",
+    "image_name": "000000480985.jpg",
+    "models_tested": [
+      "vit_gpt2"
+    ],
+    "ground_truth": [
+      "The shiny motorcycle has been put on display.",
+      "The new motorcycle on display is very shiny.",
+      "A motorcycle is parked inside of a building.",
+      "A brand new motorcycle on display at a show.",
+      "The front end of a red motorcycle that is on display."
+    ],
+    "model_results": {
+      "Vit_GPT2": "a motorcycle with a unique handlebar on display in a market lazy day of activity at the show space ..."
+    },
+    "num_ground_truth": 5
+  },
+  "image_9": {
+    "image_path": "coco_sample/images/000000458054.jpg",
+    "image_name": "000000458054.jpg",
+    "models_tested": [
+      "vit_gpt2"
+    ],
+    "ground_truth": [
+      "A row of white toilets sitting on top of a dirt ground.",
+      "A bunch of dirty looking white toilets in a row outside.",
+      "There is a row of used and broken toilets in a field.",
+      "A row of toilets with broken seat tops on the ground.",
+      "LOTS OF BROKEN TOILETS SITTING OUT ON A LAWN"
+    ],
+    "model_results": {
+      "Vit_GPT2": "a row of toilets along a wall in mud ian background with many yellow toilet paper drenched up underneath the litter cans on either side."
+    },
+    "num_ground_truth": 5
+  },
+  "image_10": {
+    "image_path": "coco_sample/images/000000331352.jpg",
+    "image_name": "000000331352.jpg",
+    "models_tested": [
+      "vit_gpt2"
+    ],
+    "ground_truth": [
+      "A small closed toilet in a cramped space.",
+      "A tan toilet and sink combination in a small room.",
+      "This is an advanced toilet with a sink and control panel.",
+      "A close-up picture of a toilet with a fountain.",
+      "Off white toilet with a faucet and controls."
+    ],
+    "model_results": {
+      "Vit_GPT2": "a white toilet is sitting inside of a bathroom sink."
+    },
+    "num_ground_truth": 5
+  }
+}
