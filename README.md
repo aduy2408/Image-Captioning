@@ -5,8 +5,8 @@
 
 ### Installation
 ```bash
-git clone <repository-url>
-cd Case-Study3
+git clone https://github.com/aduy2408/Image-Captioning
+cd Image-Captioning
 pip install -r requirements.txt
 ```
 
@@ -60,7 +60,7 @@ def test_vit_gpt2(image)           # ViT-GPT2 inference
 
 ### Web Interface (`app.py`)
 ![Web Interface](./screenshots/interface.png)
-
+![Model selection](./screenshots/models.png)
 ### Evaluation (`notebooks_experiment/`)
 
 **Metrics:**
