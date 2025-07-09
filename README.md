@@ -15,7 +15,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## 📁 Project Architecture
+## Project Architecture
 
 ```
 Case-Study3/
@@ -46,7 +46,7 @@ Case-Study3/
 
 ### 4. **ViT-GPT2** (nlpconnect/vit-gpt2-image-captioning)
 
-## Core System Components
+## Core Components
 
 ### Model Engine (`model/image_captioning_models.py`)
 
@@ -59,7 +59,7 @@ def test_vit_gpt2(image)           # ViT-GPT2 inference
 ```
 
 ### Web Interface (`app.py`)
-![Web Interface](screenshots/app-interface.png)
+![Web Interface](./screenshots/app-interface.png)
 
 ### Evaluation (`notebooks_experiment/`)
 
@@ -73,10 +73,10 @@ def test_vit_gpt2(image)           # ViT-GPT2 inference
 
 ### Evaluation Results (COCO Test Set - 10 Images)
 
-![Results](screenshots/results.png)
+![Results](./screenshots/results.png)
 
 
-##  Advanced Configuration
+## Configuration
 
 ### Optimization Settings
 ```python
@@ -91,16 +91,5 @@ GENERATION_CONFIG = {
     "top_p": 0.9,            # Nucleus sampling
     "do_sample": True         # Enable sampling
 }
-```
-
-
-
-
-### Local Development
-```bash
-streamlit run app.py --server.port 8501
-
-# Development mode with auto-reload
-streamlit run app.py --server.runOnSave true
 ```
 
