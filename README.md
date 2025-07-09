@@ -59,7 +59,7 @@ def test_vit_gpt2(image)           # ViT-GPT2 inference
 ```
 
 ### Web Interface (`app.py`)
-![Web Interface](./screenshots/app-interface.png)
+![Web Interface](./screenshots/interface.png)
 
 ### Evaluation (`notebooks_experiment/`)
 
